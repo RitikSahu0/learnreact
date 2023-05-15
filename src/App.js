@@ -1,13 +1,12 @@
-import logo from './Newfile';
+import Todo from './Component2/todo'
 import './App.css';
-import Dog from './Component/Axious1'
-import OtpGenerate from './Component/Axious2';
+
 function App() {
   return (
     <div>
-<Dog/>
-<OtpGenerate/>
-
+{/* // <Dog/>
+// <OtpGenerate/> */}
+<Todo/>
     </div>
   );
 }
